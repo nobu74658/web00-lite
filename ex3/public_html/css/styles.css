@@ -1,0 +1,98 @@
+body {
+  background-color: rgba(0, 0, 0, .1);
+  margin: 0;
+  padding: 0;
+}
+
+#socialBtn {
+  width: 240px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  margin-top: calc(50vh - 60px);
+  padding: 0;
+}
+
+ul > li {
+  padding: 0 10px 0 10px;
+}
+
+#twIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: calc(60px - 20px / 2);
+  margin-top: calc(60px - 20px / 2);
+  border-radius: 50%;
+  background-color: #1da1f2;
+  color: #1da1f2;
+  transition: 1s;
+}
+
+.fa-twitter {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 70px;
+  background-color: #fff;
+  color: #1da1f2;
+  transition: 1s;
+}
+
+.fa-twitter::before {
+  position: relative;
+  top: 24px;
+}
+
+#twIcon.move {
+  transform: scale(6);
+  cursor: pointer;
+}
+
+#twMove.move {
+  color: #fff;
+  cursor: pointer;
+}
+
+#fbIcon {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin-left: calc(58px - 10px / 2);
+  margin-top: calc(58px - 10px / 2);
+  border-radius: 50%;
+  background-color: #4460a0;
+  color: #1da1f2;
+  transition: 1s;
+}
+
+.fa-facebook-f {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 70px;
+  background-color: #fff;
+  color: #4460a0;
+  transition: 1s;
+}
+
+.fa-facebook-f::before {
+  position: relative;
+  top: 22px;
+}
+
+#fbIcon.move {
+  transform: scale(11.3);
+  cursor: pointer;
+}
+
+#fbMove.move {
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #85be63;
+  margin: 0;
+}
+
+#form {
+  background-color: white;
+  width: 340px;
+  height: 240px;
+  padding: 60px;
+  margin: 0 auto;
+  margin-top: calc(50vh - 180px);
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .4);
+}
+
+#username, #password {
+  background-color: #f2f2f2;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.inputdata {
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}
+
+#login {
+  background-color: #4baf4f;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+#form > p {
+  text-align: center;
+  font-size: 16px;
+  color: #c0c0c0;
+}
