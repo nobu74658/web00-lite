@@ -30,7 +30,7 @@ ul > li {
   border-radius: 50%;
   background-color: #1da1f2;
   color: #1da1f2;
-  transition: 1s;
+  transition: .3s;
 }
 
 .fa-twitter {
@@ -41,7 +41,7 @@ ul > li {
   font-size: 70px;
   background-color: #fff;
   color: #1da1f2;
-  transition: 1s;
+  transition: .3s;
 }
 
 .fa-twitter::before {
@@ -68,7 +68,7 @@ ul > li {
   border-radius: 50%;
   background-color: #4460a0;
   color: #1da1f2;
-  transition: 1s;
+  transition: .3s;
 }
 
 .fa-facebook-f {
@@ -79,7 +79,7 @@ ul > li {
   font-size: 70px;
   background-color: #fff;
   color: #4460a0;
-  transition: 1s;
+  transition: .3s;
 }
 
 .fa-facebook-f::before {
